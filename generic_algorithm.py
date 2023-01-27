@@ -78,6 +78,6 @@ if __name__=='__main__':
     print_selected_obj(ga_instance,obj,space)
 
     show_best_genes(ga_instance)
-
+    save_model(ga_instance)
     plot_fitnes(ga_instance)
     
